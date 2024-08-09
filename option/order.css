@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: rgb(94, 182, 233);
+    position: relative;
+    font-family: roboto, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background: rgb(94, 182, 233);
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 2px solid red; */
+}
+.brand-logo{
+    height: 25px;
+    cursor: pointer;
+}
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+
+.right-container{
+    display: block;
+    margin-left: auto;
+}
+
+.search-box{
+    border: none;
+    border-bottom: 1px solid #04810f;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+.search-box:focus{
+    width: 400px;
+    border-color: rgb(182, 40, 139);
+}
+.Download ,.btn{
+    background: #2409d4;
+    height: 40px;
+    border-radius: 50px;
+    width:150px ;
+    color: rgb(94, 182, 233);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 10px;
+    transition: .5s;
+}
+.Download:hover{
+    background: #40377a;
+}
+.clothes{
+    background-color: rgb(67, 176, 240);
+    border-radius: 50px;
+    display: flex;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    align-items: center;
+}
+.box{
+    margin: 10px;
+
+}
+.pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.money{
+    color:black;
+    text-align: center;
+    background-color: #fff;
+    height: auto;
+   
+}
+.box2{
+    border: 3px solid yellow;
+    width: 70%;
+    height: auto;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+.quantity{
+    background-color:rgb(27, 113, 163) ;
+    width: 296px;
+    font-size: large;
+}
+.input{
+    background-color: rgb(27, 113, 163);
+    color: black;
+    border: none;
+    font-size: large;
+}
+.buy{
+    width: 250px;
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 40px;
+    font-weight: 700;
+}
+.now{
+    background-color: #09a914;
+    transition: .5s;
+}
+.now:hover{
+    background: green;
+}
+.add{
+    background-color: yellow;
+    transition: .5s;
+}
+.add:hover{
+    background: rgb(177, 177, 7);
+}
+.par{
+    font-size: large;
+}

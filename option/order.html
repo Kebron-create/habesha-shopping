@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="order.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'YOUR_TRACKING_ID');
+</script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.png" class="brand-logo" alt="" onclick="location.href='file:///C:/my%20resume/Habeshan-dress/index.html'">
+    <ul class="nav-link">
+        <li class="nav-items"><a href="#">My account</a></li>
+        <li class="nav-items"><a href="#">Wishlist</a></li>
+        <li class="nav-items"><a href="#">Shopping bag</a></li>
+    </ul>
+    <div class="right-container">
+        <input type="text" class="search-box" placeholder="Search">
+        <button class="Download">Download app</button>
+    </div>
+</nav>
+<div class="clothes">
+    <div class="price">
+        <div class="box  box2">
+            <img src="images/Amhara Ethiopia 🇪🇹 አማራ፣ ኢትዮጵያ.jpg" alt="" class="pic">
+
+        </div>
+    </div>
+    <div class="price">
+        <div class="box">
+            <h2><b>Traditional Habesha shphone dress</b></h2>
+            <p class="par"><br><br>• handwoven fabric • 100% cotton • Hand-Embroidered <br>• 
+                includes short-sleeved dress • processing time 4 to 5 weeks • available on order</p><br>
+            <h3><b>Price 350$</b></h3><br>
+            <div class="quantity">Qunatity: <input type="number" class="input"></div>
+            <br><p id="answer" class="par"></p>
+            <button class="buy add" onclick='document.getElementById("answer").innerHTML ="The item has been added to your shopping bag."'>Add to Shopping Bag</button>
+            <button class="buy now" onclick='document.getElementById("answer").innerHTML ="You have bought the dress ,further information will be sended by email."'>Buy now</button>
+        </div>
+        
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
